@@ -103,7 +103,12 @@ risk_predict/
 source .venv/bin/activate
 
 # 서버 실행
+
+표준 실행 방식
 uvicorn main:app --reload
+
+개발 편의를 위해 `fastapi dev` 명령어 사용
+
 ```
 
 접속:
